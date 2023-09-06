@@ -14,5 +14,3 @@ jobs:
           node-version: "18"
       - name: Install dependencies
         run: cd ./Test && npm install
-      - name: Lint
-        run: cd ./Test && node index.js

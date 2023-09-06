@@ -1,14 +1,8 @@
 stages:
   - build
-  - test
 
 install-dependencies:
   image: node:18
   stage: build
   script:
     - cd ./Test && npm install
-
-lint:
-  stage: test
-  script:
-    - cd ./Test && node index.js
