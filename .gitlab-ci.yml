@@ -1,8 +1,0 @@
-stages:
-  - build
-
-install-dependencies:
-  image: node:18
-  stage: build
-  script:
-    - cd ./Test && npm install
