@@ -1,4 +1,4 @@
-name: Pipeline
+name: Benchmarks
 
 on: [push, pull_request]
 
@@ -14,3 +14,7 @@ jobs:
           node-version: "18"
       - name: Install dependencies
         run: cd ./Testing && npm install
+      - name: Loading time benchmark
+        run: cd ./Testing && node ./benchmarks/loading.js
+      - name: Package size benchmark
+        run: cd ./Testing && node ./benchmarks/size.js
