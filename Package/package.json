@@ -1,6 +1,6 @@
 {
   "name": "@fjrodafo/free-port",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fast and minimalist port finder!",
   "main": "free-port.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FJrodafo/npm-free-port.git"
+    "url": "git+https://github.com/FJrodafo/free-port.git"
   },
   "keywords": [
     "fast",
@@ -25,7 +25,7 @@
   "author": "FJrodafo - Francisco José Rodríguez Afonso",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FJrodafo/npm-free-port/issues"
+    "url": "https://github.com/FJrodafo/free-port/issues"
   },
-  "homepage": "https://github.com/FJrodafo/npm-free-port#readme"
+  "homepage": "https://github.com/FJrodafo/free-port#readme"
 }
